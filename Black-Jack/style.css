@@ -1,0 +1,46 @@
+.body {
+    background-image: url(/images/fond.jpg);
+}
+h1 {
+    text-transform: capitalize;
+    text-transform: uppercase;
+    color :grey;
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+    .texte {
+        font-weight: bold;
+        color: grey;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        flex-wrap: nowrap;
+        flex-direction: row;
+}
+.form {
+        display: flex;
+        align-content: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        flex-direction: row;
+}
+
+#player {
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+#bank {
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
